@@ -21,7 +21,7 @@ class _Start1ScreenState extends State<Start1Screen> {
             Column(
               children: [
                 Text(
-                  'Welcome Player!',
+                  'Welcome!',
                   textAlign: TextAlign.left,
                   style: TextStyle(
                     fontSize: 36,
