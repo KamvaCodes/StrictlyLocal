@@ -55,9 +55,9 @@ class _Start1ScreenState extends State<Start1Screen> {
                     ),
                     child: MaterialButton(
                       onPressed: () {
-                        // setState(() {
-                        //   Navigator.pushNamed(context, LoginPage.id);
-                        // });
+                        setState(() {
+                          Navigator.pushNamed(context, RegisterPage.id);
+                        });
                       },
                       minWidth: MediaQuery.of(context).size.width * 0.8,
                       height: 55.0,
@@ -79,9 +79,9 @@ class _Start1ScreenState extends State<Start1Screen> {
                     borderRadius: BorderRadius.all(Radius.circular(37)),
                     child: MaterialButton(
                       onPressed: () {
-                        setState(() {
-                          Navigator.pushNamed(context, RegisterPage.id);
-                        });
+//                         setState(() {
+//                           Navigator.pushNamed(context, RegisterPage.id);
+//                         });
                       },
                       minWidth: MediaQuery.of(context).size.width * 0.8,
                       height: 55.0,
